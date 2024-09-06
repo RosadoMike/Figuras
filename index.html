@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Figuras Geométricas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Seleccione una Figura</h1>
+        <div class="figuras">
+            <button id="rectangulo">Rectángulo</button>
+            <button id="cuadrado">Cuadrado</button>
+            <button id="triangulo">Triángulo</button>
+            <button id="circulo">Círculo</button>
+        </div>
+    </div>
+
+    <div id="formContainer" class="hidden"></div>
+
+    <!-- Modal de resultado -->
+    <div id="resultModal" class="modal hidden">
+        <div class="modal-content">
+            <span id="closeModal">&times;</span>
+            <p id="resultText"></p>
+        </div>
+    </div>
+
+    <script type="module" src="App.js"></script>
+</body>
+</html>
