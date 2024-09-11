@@ -1,0 +1,66 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://www.publicdomainpictures.net/pictures/550000/nahled/seifenblasen-hintergrund-wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 20px 100px #73d5e2;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #555;
+}
+
+input {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #10551f;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
