@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Cambio</title>
+  <link rel="stylesheet" href="cambio.css">
+</head>
+<body>
+  <div class="container">
+    <div class="calculadora">
+      <h1>Calculadora de Cambio</h1>
+      <label for="costo">costo:</label>
+      <input type="number" id="costo" placeholder="Ingresa el costo en pesos">
+
+      <label for="pago">pago:</label>
+      <input type="number" id="pago" placeholder="Ingresa el pago en pesos">
+
+      <button onclick="calcularCambio()">Calcular Cambio</button>
+    </div>
+
+    <div class="resultado-container">
+      <h2>Resultado</h2>
+      <ul id="resultado"></ul>
+    </div>
+  </div>
+
+  <script src="cambio.js"></script>
+</body>
+</html>

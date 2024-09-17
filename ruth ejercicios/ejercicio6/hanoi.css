@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dac0c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://fbi.cults3d.com/uploaders/20956660/illustration-file/44b3a338-45fe-4537-9234-2b2e24ea2170/ezgif-2-16661eab9a.gif);
+
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 50px;
+    border: 10px solid black;
+    border-radius: 100px;
+    max-width: 900px;
+    width: 100%;    
+  }
+  
+  .form-section {
+    flex: 1;
+    margin-right: 40px;
+  }
+  
+  .result {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-left: 10px solid #313030;
+    overflow-y: auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #397747;
+    color: white;
+    border: 4px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #00ff37;
+  }
+  
+  .result h2 {
+    text-align: center;
+  }
+  
+  .result ul {
+    list-style-type: none;
+    padding: 0;
+    max-height: 400px;
+  }
+  
+  .result ul li {
+    margin-bottom: 10px;
+    background-color: #889caf;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
